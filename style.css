@@ -1,0 +1,38 @@
+.container{
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.playground{
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(10, 1fr); */
+}
+
+.playground div{
+    height: 20px;
+    width: 20px;
+    /* background-color: red; */
+}
+
+.tetromino{
+    background-color: blue;
+}
+
+.mini-screen{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellowgreen;
+}
+
+.mini-screen div{
+    height: 20px;
+    width: 20px;
+}
